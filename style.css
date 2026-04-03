@@ -61,12 +61,12 @@ header {
 }
 
 header nav a {
-  margin: 30 50px;
+  margin: 0 50px;
   text-decoration: none;
   color: #143b4e;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 header nav a:hover {

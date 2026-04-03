@@ -1,4 +1,4 @@
-/* === Body / Page Layout === */
+
 body {
   font-family: 'Libre Baskerville', serif;
   max-width: 900px;
@@ -8,7 +8,7 @@ body {
   font-size: 18px;
 }
 
-/* === Headings === */
+
 h1 {
   font-family: 'Playfair Display', serif;
   margin-top: 0px;
@@ -23,7 +23,7 @@ h2 {
   font-size: 34px;
 }
 
-/* === Links === */
+
 a {
   color: #6b77b0;
   text-decoration: none;
@@ -33,28 +33,28 @@ a:hover {
   color: #4a5480;
 }
 
-/* === Header Section (Photo + Text) === */
+
 .header {
   display: flex;
-  align-items: center;      /* vertically center text and photo */
+  align-items: center;      
   justify-content: space-between;
-  gap: 40px;                /* space between text and photo */
+  gap: 40px;                
   margin-bottom: 60px;
 }
 
 .header-text {
-  flex: 1;                  /* text takes remaining space */
+  flex: 1;                  
 }
 
-/* === Profile Photo === */
+
 .profile-photo {
-  width: 300px;              /* square size */
+  width: 300px;            
   height: 300px;
-  object-fit: cover;         /* prevents stretching */
+  object-fit: cover;       
   border-radius: 10px;
 }
 
-/* === Top Navigation Bar === */
+
 header {
   margin-bottom: 40px;
   text-align: center;
@@ -66,7 +66,7 @@ header nav a {
   color: #143b4e;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 header nav a:hover {
@@ -90,10 +90,10 @@ header nav a:hover {
   cursor: pointer;
 }
 
-/* === Group buttons horizontally === */
+
 .button-group {
   display: flex;
-  gap: 20px;       /* space between buttons */
-  flex-wrap: wrap;  /* wrap if screen is small */
+  gap: 20px;       
+  flex-wrap: wrap;  
   margin-top: 15px;
 }

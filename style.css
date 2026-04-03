@@ -1,0 +1,99 @@
+/* === Body / Page Layout === */
+body {
+  font-family: 'Libre Baskerville', serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 80px 40px;  /* less extreme than 200px */
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* === Headings === */
+h1 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0px;
+  color: #143b4e;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 40px;
+  color: #143b4e;
+  font-size: 34px;
+}
+
+/* === Links === */
+a {
+  color: #6b77b0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4a5480;
+}
+
+/* === Header Section (Photo + Text) === */
+.header {
+  display: flex;
+  align-items: center;      /* vertically center text and photo */
+  justify-content: space-between;
+  gap: 40px;                /* space between text and photo */
+  margin-bottom: 60px;
+}
+
+.header-text {
+  flex: 1;                  /* text takes remaining space */
+}
+
+/* === Profile Photo === */
+.profile-photo {
+  width: 300px;              /* square size */
+  height: 300px;
+  object-fit: cover;         /* prevents stretching */
+  border-radius: 10px;
+}
+
+/* === Top Navigation Bar === */
+header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #143b4e;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  color: #6b77b0;
+}
+
+/* === Buttons === */
+.button {
+  background-color: #6b77b0;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4a5480;
+  cursor: pointer;
+}
+
+/* === Group buttons horizontally === */
+.button-group {
+  display: flex;
+  gap: 20px;       /* space between buttons */
+  flex-wrap: wrap;  /* wrap if screen is small */
+  margin-top: 15px;
+}

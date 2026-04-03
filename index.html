@@ -45,7 +45,7 @@
     .header {
       display: flex;
       align-items: center;
-      justify-content: space-between; /* spreads text + image nicely */
+      justify-content: space-between; 
       gap: 40px;
     }
 
@@ -60,11 +60,37 @@
       border-radius: 10px;
     }
 
+    header {
+    margin-bottom: 40px;
+    text-align: center; /* center nav links */
+  }
+
+  header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #143b4e;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  }
+
+  header nav a:hover {
+  color: #6b77b0;
+  }
+    
   </style>
 
 </head>
 
 <body>
+  <header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="CV.html">Curriculum Vitae</a> |
+    <a href="research.html">Research</a> |
+    <a href="teaching.html">Teaching</a>
+  </nav>
+</header>
 
 <div class="header">
 

@@ -27,19 +27,19 @@
 
     .header {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      align-items: center;   /* vertically align */
+      gap: 40px;             /* space between text and photo */
     }
 
     .header-text {
-      max-width: 70%;
+      flex: 1;               /* text takes remaining space */
     }
 
-    .header img {
-      width: 180px;
-      height: auto;
-      border-radius: 50%;
-      margin-left: 30px;
+    .profile-photo {
+      width: 220px;          /* square size */
+      height: 220px;         /* forces square */
+      object-fit: cover;     /* prevents stretching */
+      border-radius: 8px;    /* slight rounding (optional) */
     }
 
   </style>
@@ -67,7 +67,7 @@
 
   </div>
 
-  <img src="photo_of_me.png" alt="Photo of Emma Nogara">
+  <img src="photo_of_me.png" alt="Photo of Emma Nogara" class="profile-photo">
 
 </div>
 
